@@ -25,7 +25,7 @@ namespace ProjectEuler.Problems
             long sum = 0;
             for (int i = 2; i < MAX; i++)
             {
-                if (numbers[i])
+                if (!numbers[i])
                     sum += i;
             }
 
