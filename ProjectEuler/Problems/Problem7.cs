@@ -13,9 +13,9 @@ namespace ProjectEuler.Problems
 
         /// <summary>
         /// Brute force approach that checks every odd number.
-        /// By dividing the number to every prime number before that, we can check whether the number is prome or not.
+        /// By dividing the number to every prime number before that, we can check whether the number is prime or not.
         /// </summary>
-        /// <returns>Returns the 10001th primen number</returns>
+        /// <returns>Returns the 10001th prime number</returns>
         public static int Solition1()
         {
             int counter = 0, number = 2;
